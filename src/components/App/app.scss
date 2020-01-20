@@ -1,0 +1,19 @@
+.app {
+  width: 80%;
+  margin: 0 auto;
+  .pagination {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 1em;
+    li {
+        cursor: pointer;
+        width: 2em;
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid pink;
+    }
+}
+}
